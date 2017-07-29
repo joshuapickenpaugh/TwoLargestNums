@@ -38,6 +38,8 @@ namespace TwoLargestNums
                 Console.Write(num);
             }
 
+            Console.WriteLine();
+
             //Gets max and second max nums:
             dblMaxNum = lstDoubles.Max();
             var varIndexOfMax = lstDoubles.IndexOf(lstDoubles.Max());
@@ -56,6 +58,8 @@ namespace TwoLargestNums
             {
                 Console.Write(num);
             }
+
+            Console.ReadKey();
 
         }
     }
